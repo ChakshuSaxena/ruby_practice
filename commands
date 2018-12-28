@@ -1,0 +1,28 @@
+ 1  sudo
+    2  sudo upgrade ubuntu
+    3  sudo apt-get install
+    4  sudo apt-get upgraded
+    5  sudo apt-get upgrade
+    6  exit
+    7  ping google.com
+    8  \curl -sSL https://get.rvm.io | bash
+    9  sudo apt install curl
+   10  \curl -sSL https://get.rvm.io | bash
+   11  \curl -sSL https://get.rvm.io | bash -s stable --ruby
+   12  source /home/chakshusaxena/.rvm/scripts/rvm
+   13  rvm list
+   14  rvm list  know
+   15  rvm list  known
+   16  rvm install 2.5.3
+   17  sudo snap install sublime-text
+   18  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   19  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   20  sudo apt-get update
+   21  sudo apt-get install sublime-text
+   22  subl
+   23  pwd
+   24  ls
+   25  mkdir
+   26  mkdir ruby_practice
+   27  ls
+   28  cd ruby_practice
