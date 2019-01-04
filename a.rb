@@ -1,0 +1,1 @@
+puts 12.is_numeric?
