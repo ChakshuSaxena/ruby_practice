@@ -90,13 +90,13 @@ end
     # expect(orange.count).to eql(0)
   # end
 
-  # context "when One year passes "do
+  # context "when One year passes " do
     # orange = OrangeTree.new
     # expect(orange.age).to eql(+1)
-    # it " :if "======================== do 
+    # it "if tree is not in initial stage and not more than age limit" do 
     # expect(orange.height).to eql(+1)
     # end
-    # it "if "do
+    # it "if height is greater than age limit" do
     # expect(message).to eql("your orange tree is die")
   #   end
     # =================================
