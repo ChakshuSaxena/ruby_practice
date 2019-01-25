@@ -20,11 +20,11 @@ class OrangeTree
   end
 
   def age
-    puts "your  #{@tree}" + " is  #{@age} years old."
+    "your  #{@tree}" + " is  #{@age} years old."
   end
 
   def height 
-    puts "your #{@tree} " + "height is  #{@height}"
+    "your #{@tree} " + "height is  #{@height}"
   end
 
   def orangesCount
@@ -33,7 +33,7 @@ class OrangeTree
 
   def oneYearPasses
     @age = @age + 1
-    puts"your #{@tree} " + " age is #{@age}"
+    "your #{@tree} " + " age is #{@age}"
       
     puts "pick up the oranges"
     @orangesPicked = @orangesPicked + gets.chomp.to_i
@@ -65,10 +65,41 @@ class OrangeTree
   end
 end
 
-  orange = OrangeTree.new
-  orange.age
-  orange.orangesCount
+  # orange = OrangeTree.new
+  # orange.age
+  # orange.height
+  # orange.orangesCount
   orange.oneYearPasses
   orange.oneYearPasses
   orange.oneYearPasses
   orange.height
+
+# describe OrangeTree  do
+#   it "should return the initial age of orange tree" do
+  # orange = OrangeTree.new
+  # expect(orange.age).to eq(0)
+#   end
+
+    # it "should return the initial height of orange tree before year passes" do
+    # orange = OrangeTree.new
+    # expect(orange.height).to eql(0)
+  # end
+
+  # it "should return the number of oranges at initial time" do 
+    # orange = OrangeTree.new
+    # expect(orange.count).to eql(0)
+  # end
+
+  # context "when One year passes "do
+    # orange = OrangeTree.new
+    # expect(orange.age).to eql(+1)
+    # it " :if "======================== do 
+    # expect(orange.height).to eql(+1)
+    # end
+    # it "if "do
+    # expect(message).to eql("your orange tree is die")
+  #   end
+    # =================================
+
+  # end
+# end

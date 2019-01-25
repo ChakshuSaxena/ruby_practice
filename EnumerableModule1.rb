@@ -36,7 +36,7 @@
 # find with range
 # puts (1..100).find_all{|num| num%5 ==0}
 
-#  find_index(value) → int or nil 
+# find_index(value) → int or nil 
 # find_index { |obj| block } → int or nil
 # find_index → an_enumerator
 

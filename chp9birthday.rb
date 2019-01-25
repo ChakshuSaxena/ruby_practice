@@ -14,8 +14,6 @@ DOB = Time.mktime(year ,month ,date )
  ageInSec = time - DOB
  s = days * hours * sec * minute
  ageInYear = ageInSec / s
-
-
   puts 'age ='
   puts ageInYear.to_i
 
